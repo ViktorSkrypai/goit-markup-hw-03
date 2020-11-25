@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <div class="container">
+    <header class="header">
         <!--Логотип-->
         <a class="logo" href="/"><span class="web-logo">Web</span>Studio</a>
         <nav>
@@ -32,8 +33,10 @@
         </address>
 
     </header>
+    </div>
     <main>
-        <section>
+        <div class="container">
+        <section class="buttons-section">
             <!--Навигационные кнопки-->
             <ul class="list">
                 <li><button type="button" class="port-button">
@@ -46,10 +49,11 @@
                     <span class="port-button-text">Дизайн</span></button></li>
                 <li><button type="button" class="port-button">
                     <span class="port-button-text">Маркетинг</span></button></li>
-
-                </ul>
+            </ul>
+            </section>
             <!--Список примеров работ-->
             <!--<h1>Примеры работ</h1>-->
+            <section class="works-section">
             <ul class="list">
                 <li>
                     <a class="works-examples" href="">
@@ -116,8 +120,9 @@
                 </li>
             </ul>
         </section>
+        </div>
     </main>
-
+    <div class="container">
     <footer class="footer">
         <!--Логотип-->
         <a class="footer-logo" href="/"><span class="web-logo">Web</span>Studio</a>
@@ -132,6 +137,7 @@
             </ul>
         </address>
     </footer>
+    </div>
 
 </body>
 

@@ -28,10 +28,25 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  width: 1600px;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  outline: 2px solid tomato;
 }
 
 .logo {
@@ -89,12 +104,16 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /*Hero*/
 
 .hero-section {
   background-color: var(--secondary-bg-color);
+  outline: 2px solid tomato;
+  text-align: center;
 }
 
 .hero {
@@ -104,6 +123,8 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 /*Button*/
 
@@ -116,8 +137,18 @@ body {
 }
 
 .button {
+  display: inline-block;
   background-color: var(--accent-color);
   font-family: inherit;
+  border-radius: 4px;
+  border: 0px solid transparent;
+  padding: 10px 32px;
+}
+
+/*Features*/
+
+.features-section {
+  outline: 2px solid tomato;
 }
 
 .features .title {
@@ -126,17 +157,27 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .features-text {
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*Чем мы занимаемся*/
+.what-we-do-section {
+  outline: 2px solid tomato;
 }
 
 /*Наша команда*/
 
 .our-team-section {
   background-color: var(--secondary-grey-bg-color);
+  outline: 2px solid tomato;
 }
 
 .our-team .title {
@@ -144,17 +185,22 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .profession {
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /*Footer*/
 
 .footer {
   background-color: var(--secondary-bg-color);
+  outline: 2px solid tomato;
 }
 
 .footer-logo {
@@ -195,10 +241,18 @@ body {
 
 /*--------------------Portfolio-------------------*/
 
+.buttons-section {
+  outline: 2px solid tomato;
+}
+
 .port-button {
-  background-color: var(--secondary-grey-bg-color);
   font-family: inherit;
+  background-color: var(--secondary-grey-bg-color);
   color: var(--title-text-color);
+  border-radius: 4px;
+  border: 0px solid transparent;
+  padding: 6px 22px;
+  text-align: center;
 }
 
 .port-button-text {
@@ -213,20 +267,34 @@ body {
   color: var(--secondary-text-color);
 }
 
+/*Список работ Works*/
+
+.works-section {
+  outline: 2px solid tomato;
+}
+
 .works-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .works-description {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .works-examples {
   text-decoration: none;
+}
+
+.letsflex {
+  display: flex;
 }
