@@ -141,7 +141,7 @@ body {
   background-color: var(--accent-color);
   font-family: inherit;
   border-radius: 4px;
-  border: 0px solid transparent;
+  border: none;
   padding: 10px 32px;
 }
 
@@ -250,7 +250,7 @@ body {
   background-color: var(--secondary-grey-bg-color);
   color: var(--title-text-color);
   border-radius: 4px;
-  border: 0px solid transparent;
+  border: none;
   padding: 6px 22px;
   text-align: center;
 }
