@@ -37,16 +37,13 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 2px solid tomato;
 }
 
 .list {
   list-style: none;
   margin: 0px;
   padding: 0px;
-}
-
-.header {
-  outline: 2px solid tomato;
 }
 
 .logo {
@@ -112,7 +109,7 @@ body {
 
 .hero-section {
   background-color: var(--secondary-bg-color);
-  outline: 2px solid tomato;
+
   text-align: center;
 }
 
@@ -148,7 +145,6 @@ body {
 /*Features*/
 
 .features-section {
-  outline: 2px solid tomato;
 }
 
 .features .title {
@@ -170,14 +166,12 @@ body {
 
 /*Чем мы занимаемся*/
 .what-we-do-section {
-  outline: 2px solid tomato;
 }
 
 /*Наша команда*/
 
 .our-team-section {
   background-color: var(--secondary-grey-bg-color);
-  outline: 2px solid tomato;
 }
 
 .our-team .title {
@@ -200,7 +194,6 @@ body {
 
 .footer {
   background-color: var(--secondary-bg-color);
-  outline: 2px solid tomato;
 }
 
 .footer-logo {
@@ -242,7 +235,6 @@ body {
 /*--------------------Portfolio-------------------*/
 
 .buttons-section {
-  outline: 2px solid tomato;
 }
 
 .port-button {
@@ -270,7 +262,6 @@ body {
 /*Список работ Works*/
 
 .works-section {
-  outline: 2px solid tomato;
 }
 
 .works-title {
