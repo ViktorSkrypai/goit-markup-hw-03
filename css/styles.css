@@ -69,10 +69,6 @@ body {
 
 /*Site nav*/
 
-.header {
-  outline: 2px solid black;
-}
-
 .site-nav {
   display: flex;
   margin-left: 95px;
@@ -347,7 +343,21 @@ body {
 /*--------------------Portfolio-------------------*/
 
 .buttons-section {
-  outline: 2px solid black;
+  padding-top: 95px;
+  padding-bottom: 50px;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.main-buttons .item {
+  margin-right: 8px;
+}
+
+.main-buttons .item:last-child {
+  margin-right: 0px;
 }
 
 .port-button {
@@ -374,8 +384,17 @@ body {
 
 /*Список работ Works*/
 
-.works-section {
-  outline: 2px solid black;
+.wrap-works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-works .item {
+  margin-right: 30px;
+}
+
+.wrap-works .item:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .works-title {
