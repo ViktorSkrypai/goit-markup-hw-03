@@ -12,26 +12,27 @@
 <body>
     
     <header class="header">
-        <div class="container">
-        <!--Логотип-->
-        <a class="logo"
-        href="/"><span class="web-logo">Web</span>Studio</a>
-    <nav>
-    <!-- Навигация на другие страницы -->
+
+    <nav class="container main-nav">
+<!--Логотип-->
+        <a class="logo" href="/"><span class="web-logo">Web</span>Studio</a>
+    
+<!-- Навигация на другие страницы -->
         <ul class="site-nav list">
-                <li><a class="link is-current" href="" >Студия</a></li>
-                <li><a class="link" href="./portfolio.html" target="_blank" >Портфолио</a></li>
-                <li><a class="link" href="" >Контакты</a></li>
+            <li class="item"><a class="link is-current" href="" >Студия</a></li>
+            <li class="item"><a class="link" href="./portfolio.html" target="_blank" >Портфолио</a></li>
+            <li class="item"><a class="link" href="" >Контакты</a></li>
         </ul>
+    
+<!--Список контактов-->
+        
+        <ul class="header-adress list">
+            <li class="item"><a href="mailto:info@devstudio.com" class="adress-link">info@devstudio.com</a></li>
+            <li class="item"><a href="tel:++380961111111" class="adress-link">(096) 111 11 11</a></li>
+        </ul>
+        
     </nav>
-        <!--Список контактов-->
-        <address>
-            <ul class="header-adress list">
-            <li><a href="mailto:info@devstudio.com" class="adress-link">info@devstudio.com</a></li>
-            <li><a href="tel:++380961111111" class="adress-link">(096) 111 11 11</a></li>
-            </ul>
-        </address>
-    </div>
+
     </header>
     
 <main>
@@ -53,19 +54,19 @@
         <div class="container">
         <!--<h2>Список преимуществ</h2>-->
 <ul class="features list">
-    <li>
+    <li class="item">
         <h3 class="title">Внимание к деталям</h3>
         <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
     </li>
-    <li>
+    <li class="item">
         <h3 class="title">Пунктуальность</h3>
         <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
     </li>
-    <li>
+    <li class="item">
         <h3 class="title">Внимание к деталям</h3>
         <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
     </li>
-    <li>
+    <li class="item">
         <h3 class="title">Современные технологии</h3>
         <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
     </li>
@@ -78,11 +79,11 @@
     <section class="what-we-do-section">
         <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list">
+        <ul class="list works-photo">
             
-            <li><img src="./images/coding.jpg" class="works-photo" alt="верстаем" width="370" /> </li>
-            <li><img src="./images/adaptive.jpg" class="works-photo" alt="делаем адаптивную верстку" width="370" /></li>
-            <li><img src="./images/webdesign.jpg" class="works-photo" alt="занимаемся веб-дизайном" width="370" /></li>
+            <li class="item"><img src="./images/coding.jpg" alt="верстаем" width="370" /> </li>
+            <li class="item"><img src="./images/adaptive.jpg" alt="делаем адаптивную верстку" width="370" /></li>
+            <li class="item"><img src="./images/webdesign.jpg"  alt="занимаемся веб-дизайном" width="370" /></li>
             
         </ul>
         </div>
@@ -94,23 +95,23 @@
         <div class="container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="our-team list">
-            <li>
-            <img src="./images/igor.jpg" class="team-photo" alt="Игорь Демьяненко" width="270" />
+            <li class="item">
+            <img src="./images/igor.jpg" alt="Игорь Демьяненко" width="270" />
             <h3 class="title">Игорь Демьяненко</h3>
             <p class="profession">Product Designer</p>
             </li>
-            <li>
-            <img src="./images/olga.jpg" class="team-photo" alt="Ольга Репина" width="270" />
+            <li class="item">
+            <img src="./images/olga.jpg" alt="Ольга Репина" width="270" />
             <h3 class="title">Ольга Репина</h3>
             <p class="profession">Frontend Developer</p>
             </li>
-            <li>
-            <img src="./images/nikola.jpg" class="team-photo" alt="Николай Тарасов" width="270" />
+            <li class="item">
+            <img src="./images/nikola.jpg" alt="Николай Тарасов" width="270" />
             <h3 class="title">Николай Тарасов</h3>
             <p class="profession">Marketing</p>
             </li>
-            <li>
-            <img src="./images/mihail.jpg" class="team-photo" alt="Михаил Ермаков" width="270" />
+            <li class="item">
+            <img src="./images/mihail.jpg" alt="Михаил Ермаков" width="270" />
             <h3 class="title">Михаил Ермаков</h3>
             <p class="profession">UI Designer</p>
             </li>
@@ -126,13 +127,24 @@
         <!--Логотип-->
         <a class="footer-logo" href="/"><span class="web-logo">Web</span>Studio</a>
           <!--Список контактов-->
+
+
         <address class=adress-block>
-            <ul class="footer-adress list">
-            <li><a href="https://goo.gl/maps/HhLxZeVXFnJHZ4HMA" 
+
+
+    <ul class="footer-adress list">
+
+         <li class="item">
+            <a href="https://goo.gl/maps/HhLxZeVXFnJHZ4HMA" 
                 target="_blank" class="footer-contact">г. Киев, пр-т Леси Украинки, 26 </a> </li>
-            <li><a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a></li>
-            <li><a href="tel:++380961111111" class="footer-contact">(096) 111-11-11</a></li>
-            </ul>
+         <li class="item">
+            <a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a>
+        </li>
+        <li class="item">
+            <a href="tel:++380961111111" class="footer-contact">(096) 111-11-11</a>
+        </li>
+
+    </ul>
         </address>
         </div>
     </footer>
