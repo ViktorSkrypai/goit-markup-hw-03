@@ -53,6 +53,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  display: inline-block;
+  padding-top: 25px;
 }
 
 .web-logo {
@@ -68,6 +70,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: inline-block;
 }
 
 .site-nav .link.is-current {
@@ -79,6 +82,10 @@ body {
   color: var(--accent-color);
 }
 
+.header {
+  outline: 2px solid black;
+}
+
 .header-adress .adress-link {
   color: var(--primary-text-color);
   font-style: normal;
@@ -87,6 +94,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: inline-block;
 }
 
 .adress-link:hover,
@@ -102,15 +110,17 @@ body {
   font-size: 36px;
   line-height: 1.16;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
+  padding-top: 95px;
 }
 
 /*Hero*/
 
 .hero-section {
   background-color: var(--secondary-bg-color);
-
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero {
@@ -121,7 +131,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 /*Button*/
 
@@ -145,6 +155,8 @@ body {
 /*Features*/
 
 .features-section {
+  outline: 2px solid black;
+  padding-top: 95px;
 }
 
 .features .title {
@@ -166,12 +178,22 @@ body {
 
 /*Чем мы занимаемся*/
 .what-we-do-section {
+  outline: 2px solid black;
+}
+
+.works-photo {
+  padding-bottom: 95px;
 }
 
 /*Наша команда*/
 
 .our-team-section {
   background-color: var(--secondary-grey-bg-color);
+  outline: 2px solid black;
+}
+
+.team-photo {
+  margin-bottom: 30px;
 }
 
 .our-team .title {
@@ -180,7 +202,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .profession {
@@ -204,6 +226,9 @@ body {
   text-decoration: none;
   font-family: Raleway;
   letter-spacing: 0.03em;
+  display: inline-block;
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
 
 .footer-adress .link {
@@ -220,6 +245,12 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.adress-block {
+  padding-bottom: 50px;
 }
 
 .link:hover,
@@ -235,6 +266,7 @@ body {
 /*--------------------Portfolio-------------------*/
 
 .buttons-section {
+  outline: 2px solid black;
 }
 
 .port-button {
@@ -262,6 +294,7 @@ body {
 /*Список работ Works*/
 
 .works-section {
+  outline: 2px solid black;
 }
 
 .works-title {
