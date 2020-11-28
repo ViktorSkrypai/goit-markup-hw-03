@@ -54,7 +54,7 @@ body {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
-  border-bottom: 2px solid var(--header-border-color);
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 .main-nav {
