@@ -50,6 +50,10 @@ body {
 }
 
 /*----------------------------------------------------------------*/
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
 .main-nav {
   display: flex;
@@ -63,8 +67,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .web-logo {
@@ -141,7 +143,6 @@ body {
 .section-title {
   margin-top: 0px;
   margin-bottom: 50px;
-  padding-top: 95px;
 
   color: var(--title-text-color);
   font-weight: 700;
@@ -195,6 +196,7 @@ body {
 
 .features-section {
   padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .features {
@@ -230,6 +232,11 @@ body {
 
 /*Чем мы занимаемся*/
 
+.what-we-do-section {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
 .works-photo {
   display: flex;
 }
@@ -240,13 +247,14 @@ body {
 
 .works-photo .item {
   margin-right: 30px;
-  padding-bottom: 95px;
 }
 
 /*Наша команда*/
 
 .our-team-section {
   background-color: var(--secondary-grey-bg-color);
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .our-team {
@@ -255,7 +263,6 @@ body {
 
 .our-team .item {
   margin-right: 30px;
-  padding-bottom: 95px;
 }
 
 .our-team .item:last-child {
@@ -296,11 +303,12 @@ body {
 
 .footer {
   background-color: var(--secondary-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
   display: block;
-  padding-top: 60px;
   margin-bottom: 20px;
 
   color: var(--secondary-text-color);
@@ -336,10 +344,6 @@ body {
 
 .footer-adress .item:last-child {
   margin-bottom: 0px;
-}
-
-.adress-block {
-  padding-bottom: 60px;
 }
 
 .link:hover,
