@@ -57,11 +57,6 @@ body {
   border-bottom: 1px solid var(--header-border-color);
 }
 
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-
 .logo {
   color: var(--title-text-color);
   font-family: Raleway;
@@ -77,6 +72,11 @@ body {
 
 /*Site nav*/
 
+.nav-adress-container {
+  display: flex;
+  align-items: center;
+}
+
 .site-nav {
   display: flex;
   margin-left: 95px;
@@ -84,6 +84,9 @@ body {
 
 .header-adress {
   display: flex;
+}
+
+.adress-container {
   margin-left: auto;
 }
 
@@ -102,7 +105,7 @@ body {
 .header-adress .item:last-child {
   margin-right: 0px;
 }
-
+/*------------------------------------------------------------------*/
 .site-nav .link.is-current {
   color: var(--accent-color);
 }
