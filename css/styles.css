@@ -30,9 +30,12 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  width: 1600px;
   outline: 2px solid black;
   margin: auto;
+}
+
+img {
+  display: block;
 }
 
 .container {
@@ -293,10 +296,6 @@ body {
   line-height: 1.18;
 }
 
-.our-team img {
-  display: block;
-}
-
 .our-team .content {
   background-color: var(--primary-bg-color);
 
@@ -389,8 +388,12 @@ body {
   color: var(--title-text-color);
   border-radius: 4px;
   border: none;
-  padding: 6px 22px;
   text-align: center;
+  padding: 6px 22px;
+}
+
+.main-buttons .item {
+  margin-bottom: 50px;
 }
 
 .port-button-text {
@@ -408,6 +411,7 @@ body {
 /*Список работ Works*/
 
 .works-section {
+  padding-top: 95px;
   padding-bottom: 95px;
 }
 
@@ -449,10 +453,6 @@ body {
 
 .works-examples {
   text-decoration: none;
-}
-
-.wrap-works img {
-  display: block;
 }
 
 .wrap-works .content {
